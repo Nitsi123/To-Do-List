@@ -6,16 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Nitsi123/To-Do-List.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Nitsi123/To-Do-List/issues"
-  },
-  "homepage": "https://nitsi123.github.io/todo-list/",
   "devDependencies": {
     "webpack-cli": "^4.7.0"
   },
