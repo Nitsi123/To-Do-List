@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header{
+    background-color: #02213dfa;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    padding-left: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: aliceblue;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    border-top: 3px red solid;
+    width: 100%;
+    height: 100vh;
+}
+
+.sidebar{
+    background-color: #edf6fffa;
+    height: 100vh;
+    width: 15vw;
+}
+
+.schedule{
+    margin-top: 50px;
+    font-size: 2rem;
+    padding: 10px;
+}
+
+.projects{
+    font-size: 2rem;
+    padding: 10px;
+}
+
+.button
+{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    transition: 50ms all;
+    padding-left: 15px;
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: #c3dffafa;
+    transform: scale(1.1);
+    font-weight: bold;
+}
+
+h3{
+    padding-left: 15px;
+    font-size: 2rem;
+}
+
+.content{
+    position: relative;
+}
+
+.task{
+    transition: 50ms all;
+}
+
+.task:hover{
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.form{
+    position:absolute;
+    border: 1px solid #02213dfa;
+    width: 40vw;
+    height: 35vh;
+    margin: 200px auto;
+    display: none;
+    transition: 1s;
+    top:0px
+}
+
+#title, #description{
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+}
+
+#project, #date{
+    padding: 10px;
+    margin: 10px;
+    font-size: 1.5rem;
+    border: 1px solid #02213dfa;
+    border-radius: 5px;
+    outline-color: #02213dfa;
+}
+
+.form-button{
+    display: flex;
+    justify-content: center;
+}
+
+#okay, #cancel{
+    padding: 10px;
+    margin: 10px;
+    font-size: 1.5rem;
+    border: none;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 50ms all;
+}
+
+#okay:hover{
+    transform: scale(1.1);
+    background-color: #023299;
+}
+
+#cancel:hover{
+    transform: scale(1.1);
+    background-color: #a70c2e;
+}
+
+#okay{
+    background-color: #0d51e4;
+}
+
+#cancel{
+    background-color: #e22b53;
+}
+
+.invisible{
+    display:none;
+}
+
+.visible{
+    display:block;
+}
+
+.task-container{
+    font-size: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr 1fr;
+    padding: 10px;
+}
+
+.mark-done{
+    transition: 50ms all;
+}
+
+.mark-done:hover{
+    transform: scale(1.5);
+}
+
+.projects > div{
+    padding: 5px;
+}
+
+.projects > div:hover{
+    cursor: pointer;
+    background-color: #c3dffafa;
+    transform: scale(1.1);
+    font-weight: bold;
+}
