@@ -71,7 +71,7 @@ function createTaskList(keys)
         date.classList.add(temp)
 
         doneImg.classList.add(temp)
-        doneImg.setAttribute("src", "/dist/images/done.svg")
+        doneImg.setAttribute("src", "dist/images/done.svg")
         doneImg.setAttribute("data-key", keys[i])
         doneImg.classList.add("mark-done")
         let myobj = {};
@@ -118,7 +118,7 @@ function createAddTask()
     const button = document.createElement("div");
     const addTaskImg = document.createElement("img")
     const addTaskText = document.createElement("p")
-    addTaskImg.setAttribute("src", "/dist/images/add-task.svg")
+    addTaskImg.setAttribute("src", "dist/images/add-task.svg")
     addTaskText.innerText = "Add Task";
     button.appendChild(addTaskImg)
     button.appendChild(addTaskText)
