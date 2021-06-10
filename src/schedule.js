@@ -6,6 +6,9 @@ function createHome()
 {
     const content = document.querySelector(".content");
     const taskContainer = document.querySelector(".task-container")
+    const heading = document.querySelector(".content-head");
+    heading.innerText ="";
+    heading.innerText = "Home"
     const keys = Object.keys(localStorage)
     createTaskList(keys)
 
